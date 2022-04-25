@@ -1,0 +1,97 @@
+.accordion {
+    max-width: 90%;
+    margin: 2rem auto;
+  }
+  
+  .accordion-title {
+    opacity: 0.5;
+    z-index: -1;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    cursor: pointer;
+    background-image: url("https://www.willflyforfood.net/wp-content/uploads/2021/06/nigerian-food-afang-soup.jpg");
+    background-size: cover; 
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  .accordion-title h2 {
+    margin-left: 45%;
+    font-family: 'Pacifico', cursive;
+    font-size: 30px;
+  }
+  
+  .accordion-title:hover {
+    background-color: #3ab4cc;
+  }
+  
+  .accordion-title,
+  .accordion-content {
+    padding: 4rem;
+  }
+  
+  .accordion-content {
+    background-color: #39b9d2;
+  }
+  
+  @media screen and (max-width: 700px) {
+    .accordion-title,
+    .accordion-content {
+      padding: 2rem;
+    }
+  
+    .accordion {
+      width: 90%;
+    }
+    .accordion-title h2 {
+        margin-left: 10%;
+        font-size: 20px;
+    }
+  }
+
+  .lunch-grid {
+    --item-size: 26vw;
+    display: grid;
+    grid-template-columns: repeat(4, 330px);
+    grid-auto-rows: var(--item-size);
+    place-content: center;
+    margin-top: 20px;
+    }
+    .lunch-grid-details {
+        box-shadow: 8px 12px 30px #aaa8a8;
+        width: 300px;
+        height: 365px;
+        border-radius: 5px;
+        justify-content: center;
+        margin-left: 15px;
+    }
+    .lunch-grid-text {
+        text-align: center;
+        font-family: 'Pacifico', cursive;
+    }
+    .lunch-grid-text h6 {
+        font-size: 20px;
+    }
+
+      .lunch-grid-img {
+        width: 250px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        transition: transform .2s;
+      }
+      .lunch-grid-img:hover {
+        transform: scale(1.1);
+      }
+
+      @media only screen and (max-width: 600px) {
+        .lunch-grid {
+            display: block;
+        }
+
+        .lunch-grid-details {
+            margin-top: 30px;
+            height: 400px;
+        }
+    }

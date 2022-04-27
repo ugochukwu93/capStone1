@@ -11,7 +11,7 @@ function Footer() {
     <div className='footer'>
         <div className="contact">
             <div className="number">
-                <img src={phone} alt="phone icon" />
+                <img src={phone} alt="phone-icon" />
                 <p>+1-543-123-4567</p>
             </div>
             <div class="email">
@@ -31,9 +31,15 @@ function Footer() {
             <p>Privacy</p>
         </div>
         <div className="social-icons">
+            <div className='img-con'>
             <img src={facebook} alt="facebook logo" />
+            </div>
+            <div className='img-con'>
             <img src={twitter} alt="twitter logo" />
+            </div>
+            <div className='img-con'>
             <img src={instagram} alt="instagram logo" />
+            </div>
         </div>
     </div>
   )

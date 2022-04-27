@@ -5,11 +5,22 @@
     display: inline-block;
     margin-left: 10px;
 }
+.number {
+    margin-bottom: 20px;
+}
 .footer{
+    color: #ffff;
     background-color: hsl(216, 53%, 9%);
     margin-bottom: 0px;
     display: flex;
     justify-content: space-around;
-    padding: 50px 30px;
+    padding: 20px 30px;
     opacity: 0.9;
+}
+.social-icons {
+    margin-top: 35px;
+    display: flex;
+}
+.img-con {
+    margin-right: 30%;
 }

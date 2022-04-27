@@ -1,0 +1,17 @@
+body{
+    background-image: url('https://2.bp.blogspot.com/-fasOLGR4K7k/VjW5-XIS8VI/AAAAAAAAKQ4/0bJ3rR16rnk/s1600/yam+recipes.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    color: white;
+}
+.about{
+    width: 60%;
+    height: 100%;
+    text-align: center;
+    margin:15% 0 auto 17%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    font-size: 35px;
+}

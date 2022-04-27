@@ -1,12 +1,13 @@
 
 import './App.css';
+// import ContactPage from './pages/ContactPage';
 import Products from './pages/Products';
 
 function App() {
   return (
     <div className="App">
-      {/* <h1>capstone1</h1> */}
       <Products/>
+      {/* <ContactPage/> */}
     </div>
   );
 }

@@ -1,0 +1,15 @@
+.footer img{
+    width: 25px;
+}
+.footer .contact p, .footer .location p{
+    display: inline-block;
+    margin-left: 10px;
+}
+.footer{
+    background-color: hsl(216, 53%, 9%);
+    margin-bottom: 0px;
+    display: flex;
+    justify-content: space-around;
+    padding: 50px 30px;
+    opacity: 0.9;
+}

@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import './Homepage.css'
 import image1 from '../images/image3.jpg'
 import image2 from '../images/chef.png'
@@ -7,8 +7,8 @@ import image4 from '../images/chad-montano-eeqbbemH9-c-unsplash.jpg'
 import image5 from '../images/chad-montano-MqT0asuoIcU-unsplash.jpg'
 import image6 from '../images/joseph-gonzalez-zcUgjyqEwe8-unsplash.jpg'
 
-export default function Breakfast() {
-    const [isActive, setIsActive] = useState(true);
+export default function Homepage() {
+    // const [isActive, setIsActive] = useState(true);
 
     return (
         <div>

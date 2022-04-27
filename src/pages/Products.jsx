@@ -1,6 +1,6 @@
 import React from 'react'
-import Breakfast from '../components/Breakfast'
-import Lunch from '../components/Lunch'
+import Breakfast from '../Components/Breakfast'
+import Lunch from '../Components/Lunch'
 import './Products.css'
 
 export default function Products() {

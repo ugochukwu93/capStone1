@@ -8,7 +8,7 @@ import MapLogo from '../Img-Icons/placeholder.png'
 import MailLogo from '../Img-Icons/email.png'
 import PhoneLogo from '../Img-Icons/smartphone.png'
 import SkypeLogo from '../Img-Icons/skype.png'
-import Form from '../components/Form'
+import Form from '../Components/Form'
 
 export default function ContactPage() {
   return (

@@ -4,6 +4,7 @@ import { Link } from 'react-router-dom'
 import logo from '../../Images/cooking.png'
 
 const Navbar = () => {
+  
   return (
     <div className='navbar'>
       <div className='logo'>

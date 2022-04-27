@@ -1,0 +1,92 @@
+.b-accordion {
+    max-width: 90%;
+    margin: 2rem auto;
+  }
+  
+  .b-accordion-title {
+    border-radius: 5px;
+    opacity: 0.5;
+    z-index: -1;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    cursor: pointer;
+    background-image: url("https://nigeriahealthonline.com/wp-content/uploads/2015/12/breakfast-2-1900x700_c.jpg");
+    background-size: cover; 
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  .b-accordion-title h2 {
+    margin-left: 45%;
+    font-family: 'Pacifico', cursive;
+    font-size: 30px;
+    
+    
+  }
+  
+  
+  .b-accordion-title,
+  .b-accordion-content {
+    padding: 4rem;
+  }
+  
+  
+  @media screen and (max-width: 700px) {
+    .b-accordion-title,
+    .b-accordion-content {
+      padding: 2rem;
+    }
+  
+    .b-accordion {
+      width: 90%;
+    }
+    .b-accordion-title h2 {
+        margin-left: 10%;
+        font-size: 20px;
+    }
+  }
+.grid {
+    --item-size: 26vw;
+    display: grid;
+    grid-template-columns: repeat(4, 330px);
+    grid-auto-rows: var(--item-size);
+    place-content: center;
+    margin-top: 20px;
+    }
+    .grid-details {
+        box-shadow: 8px 12px 30px #aaa8a8;
+        width: 300px;
+        height: 375px;
+        border-radius: 5px;
+        justify-content: center;
+        margin-left: 20px;
+    }
+    .grid-text {
+        margin-top: 10px;
+        text-align: center;
+        font-family: 'Pacifico', cursive;;
+    }
+    .grid-text h6 {
+        font-size: 20px;
+    }
+
+      .grid-img {
+        width: 250px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        transition: transform .2s;
+      }
+      .grid-img:hover {
+        transform: scale(1.1);
+      }
+      @media only screen and (max-width: 600px) {
+          .grid {
+              display: block;
+          }
+
+          .grid-details {
+              margin-top: 30px;
+              height: 400px;
+          }
+      }

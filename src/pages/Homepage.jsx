@@ -1,13 +1,11 @@
 import React from 'react'
-// import Breakfast from '../components/Breakfast'
-// import Lunch from '../components/Lunch'
-import './Products.css'
+import Homepage from '../components/Homepage'
+import './Homepage.css'
 
-export default function Products() {
+export default function Homepage() {
   return (
-    <div className='products'>
-        {/* <Breakfast/>
-        <Lunch/> */}
+    <div className='Homepage'>
+        <Homepage/>
     </div>
   )
  }

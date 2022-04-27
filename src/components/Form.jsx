@@ -7,7 +7,7 @@ export default function App() {
 
   return (
       <div className="formInput">
-          <h4 className="header">Get in Touch</h4>
+          <h4 className="header-head">Get in Touch</h4>
           <p className="header-text">Feel free to drop us a line below</p>
         <form onSubmit={handleSubmit()}>
         <input {...register("firstName")} placeholder="First name" required />

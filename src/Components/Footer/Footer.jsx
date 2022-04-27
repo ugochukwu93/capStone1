@@ -1,10 +1,10 @@
 import React from 'react'
 import '../Footer/Footer.css'
-import facebook from '../../Images/facebook.svg'
-import email from '../../Images/icon-email.svg'
-import phone from '../../Images/icon-phone.svg'
-import instagram from '../../Images/instagram.svg'
-import twitter from '../../Images/twitter.svg'
+import facebook from '../../images/facebook.svg'
+import email from '../../images/icon-email.svg'
+import phone from '../../images/icon-phone.svg'
+import instagram from '../../images/instagram.svg'
+import twitter from '../../images/twitter.svg'
 
 function Footer() {
   return (
